@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Политика конфиденциальности StarCypher - AI астролог в Telegram">
+    <title>Privacy Policy - StarCypher.xyz</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-dark: #0a0a1a;
+            --bg-darker: #1a1a2e;
+            --text-white: #ffffff;
+            --text-gray: #9ca3af;
+            --text-light-gray: #d1d5db;
+            --accent-gold: #fbbf24;
+            --gradient-purple: linear-gradient(135deg, #8b5cf6, #6366f1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-light-gray);
+            line-height: 1.8;
+        }
+
+        /* Language Switcher */
+        .lang-switcher {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            display: flex;
+            gap: 10px;
+            background: rgba(26, 26, 46, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 10px 15px;
+            border-radius: 50px;
+            border: 1px solid rgba(139, 92, 246, 0.3);
+        }
+
+        .lang-switcher a {
+            color: var(--text-gray);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            padding: 5px 12px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .lang-switcher a:hover {
+            color: var(--text-white);
+            background: rgba(139, 92, 246, 0.2);
+        }
+
+        .lang-switcher a.active {
+            color: var(--bg-dark);
+            background: var(--accent-gold);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            background: linear-gradient(180deg, var(--bg-darker), var(--bg-dark));
+            border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            background: var(--gradient-purple);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--accent-gold);
+            text-decoration: none;
+            margin-bottom: 20px;
+            transition: opacity 0.3s ease;
+        }
+
+        .back-link:hover {
+            opacity: 0.8;
+        }
+
+        .update-date {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+        }
+
+        .content {
+            padding: 40px 0;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--text-white);
+            margin: 40px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(139, 92, 246, 0.3);
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            color: var(--text-white);
+            margin: 30px 0 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: var(--text-light-gray);
+            font-size: 1rem;
+        }
+
+        ul {
+            margin: 20px 0;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: var(--text-light-gray);
+        }
+
+        .highlight {
+            background: rgba(139, 92, 246, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 3px solid var(--accent-gold);
+            margin: 30px 0;
+        }
+
+        .contact-info {
+            background: rgba(26, 26, 46, 0.5);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border: 1px solid rgba(139, 92, 246, 0.2);
+        }
+
+        .contact-info a {
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(139, 92, 246, 0.2);
+            color: var(--text-gray);
+        }
+
+        footer a {
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 20px 15px;
+            }
+
+            .lang-switcher {
+                top: 10px;
+                right: 10px;
+                padding: 8px 12px;
+            }
+
+            .lang-switcher a {
+                font-size: 0.85rem;
+                padding: 4px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="lang-switcher">
+        <a href="privacy.html" class="active">RU</a>
+        <a href="privacy-en.html">EN</a>
+    </div>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="back-link">← Вернуться на главную</a>
+            <h1>Политика конфиденциальности</h1>
+            <p class="update-date">Последнее обновление: 1 февраля 2026</p>
+        </div>
+    </header>
+
+    <main class="container content">
+        <section>
+            <h2>1. Введение</h2>
+            <p>
+                Добро пожаловать в StarCypher.xyz! Мы ценим ваше доверие и серьезно относимся к защите вашей конфиденциальности. 
+                Эта Политика конфиденциальности объясняет, какие данные мы собираем, как мы их используем и какие права у вас есть 
+                в отношении ваших персональных данных при использовании нашего Telegram-бота.
+            </p>
+            <p>
+                Используя StarCypher bot, вы соглашаетесь с условиями, описанными в этой политике. Если вы не согласны с какими-либо 
+                положениями, пожалуйста, не используйте наш сервис.
+            </p>
+        </section>
+
+        <section>
+            <h2>2. Какие данные мы собираем</h2>
+            <p>Для предоставления качественных астрологических прогнозов мы собираем следующую информацию:</p>
+            
+            <h3>2.1 Обязательные данные</h3>
+            <ul>
+                <li><strong>Telegram ID</strong> - уникальный идентификатор вашего аккаунта в Telegram</li>
+                <li><strong>Имя пользователя</strong> - ваше имя и username в Telegram</li>
+                <li><strong>Сообщения</strong> - вопросы и информация, которую вы отправляете боту</li>
+                <li><strong>Дата и время взаимодействия</strong> - временные метки ваших запросов</li>
+            </ul>
+
+            <h3>2.2 Дополнительные данные (для персонализации)</h3>
+            <ul>
+                <li><strong>Дата рождения</strong> - для составления натальной карты и точных прогнозов</li>
+                <li><strong>Время и место рождения</strong> - для углубленного астрологического анализа (VIP)</li>
+                <li><strong>Личные вопросы</strong> - информация о любви, карьере, которую вы добровольно предоставляете</li>
+            </ul>
+
+            <div class="highlight">
+                <strong>Важно:</strong> Мы НЕ собираем ваш номер телефона, контакты, геолокацию в реальном времени или другие 
+                данные без вашего явного согласия.
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Как мы используем ваши данные</h2>
+            <p>Собранная информация используется исключительно для следующих целей:</p>
+            
+            <ul>
+                <li><strong>Астрологический анализ</strong> - создание персональных прогнозов и предсказаний с помощью Kimi AI</li>
+                <li><strong>Улучшение сервиса</strong> - анализ популярных запросов для улучшения качества ответов</li>
+                <li><strong>Техническая поддержка</strong> - помощь в решении проблем и ответы на ваши вопросы</li>
+                <li><strong>Управление подпиской</strong> - обработка платежей и управление VIP-статусом</li>
+                <li><strong>Безопасность</strong> - предотвращение мошенничества и злоупотреблений</li>
+            </ul>
+
+            <p>
+                Мы <strong>НЕ продаем</strong> ваши данные третьим лицам. Мы <strong>НЕ используем</strong> ваши данные для рекламы 
+                без вашего согласия.
+            </p>
+        </section>
+
+        <section>
+            <h2>4. Обработка данных с помощью AI</h2>
+            <p>
+                StarCypher использует технологию <strong>Kimi AI</strong> для анализа астрологических аспектов и генерации персональных прогнозов. 
+                Ваши сообщения могут обрабатываться AI-системой для:
+            </p>
+            <ul>
+                <li>Понимания контекста ваших вопросов</li>
+                <li>Создания релевантных астрологических интерпретаций</li>
+                <li>Формирования персонализированных рекомендаций</li>
+            </ul>
+            <p>
+                Данные, передаваемые в AI-систему, защищены и используются только для генерации ответов вам. 
+                Они не используются для обучения моделей без вашего согласия.
+            </p>
+        </section>
+
+        <section>
+            <h2>5. Хранение и безопасность данных</h2>
+            
+            <h3>5.1 Где хранятся данные</h3>
+            <p>
+                Ваши данные хранятся на защищенных серверах с использованием современных технологий шифрования. 
+                Мы применяем индустриальные стандарты безопасности для защиты информации от несанкционированного доступа.
+            </p>
+
+            <h3>5.2 Срок хранения</h3>
+            <ul>
+                <li><strong>История сообщений:</strong> 90 дней для Free пользователей, 1 год для VIP</li>
+                <li><strong>Персональные данные:</strong> пока вы активно используете бота</li>
+                <li><strong>После удаления аккаунта:</strong> данные удаляются в течение 30 дней</li>
+            </ul>
+
+            <h3>5.3 Меры безопасности</h3>
+            <ul>
+                <li>Шифрование данных при передаче (SSL/TLS)</li>
+                <li>Шифрование данных при хранении</li>
+                <li>Ограниченный доступ к данным только для авторизованного персонала</li>
+                <li>Регулярные проверки безопасности и обновления</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Ваши права</h2>
+            <p>В соответствии с законодательством о защите данных, вы имеете следующие права:</p>
+            
+            <ul>
+                <li><strong>Право на доступ:</strong> запросить копию всех данных, которые мы храним о вас</li>
+                <li><strong>Право на исправление:</strong> исправить неточную информацию</li>
+                <li><strong>Право на удаление:</strong> удалить все ваши данные из системы</li>
+                <li><strong>Право на ограничение обработки:</strong> ограничить использование ваших данных</li>
+                <li><strong>Право на возражение:</strong> возразить против определенных видов обработки</li>
+                <li><strong>Право на переносимость:</strong> получить данные в структурированном формате</li>
+            </ul>
+
+            <div class="highlight">
+                <strong>Как реализовать свои права:</strong><br>
+                Отправьте команду <code>/delete_my_data</code> в боте или свяжитесь с нами по email ниже.
+            </div>
+        </section>
+
+        <section>
+            <h2>7. Cookies и отслеживание</h2>
+            <p>
+                Наш веб-сайт (starcypher.xyz) использует минимальное количество cookies для базовой функциональности:
+            </p>
+            <ul>
+                <li>Технические cookies для работы сайта</li>
+                <li>Аналитика для понимания посещаемости (анонимно)</li>
+            </ul>
+            <p>
+                Telegram бот не использует cookies, так как работает в рамках платформы Telegram, которая имеет собственную 
+                политику конфиденциальности.
+            </p>
+        </section>
+
+        <section>
+            <h2>8. Обмен данными с третьими лицами</h2>
+            <p>Мы можем делиться минимально необходимой информацией с:</p>
+            
+            <ul>
+                <li><strong>Telegram</strong> - платформа, на которой работает бот</li>
+                <li><strong>Kimi AI</strong> - для обработки запросов и генерации прогнозов</li>
+                <li><strong>Платежные системы</strong> - для обработки VIP-подписок (только данные транзакций)</li>
+                <li><strong>Хостинг-провайдеры</strong> - для хранения данных на защищенных серверах</li>
+            </ul>
+
+            <p>
+                Все третьи стороны связаны соглашениями о конфиденциальности и не имеют права использовать ваши данные 
+                для собственных целей.
+            </p>
+        </section>
+
+        <section>
+            <h2>9. Защита детей</h2>
+            <p>
+                Наш сервис предназначен для лиц старше 13 лет. Мы сознательно не собираем информацию от детей младше 13 лет. 
+                Если вы родитель и узнали, что ваш ребенок предоставил нам персональные данные, свяжитесь с нами для удаления 
+                этой информации.
+            </p>
+        </section>
+
+        <section>
+            <h2>10. Международная передача данных</h2>
+            <p>
+                Ваши данные могут обрабатываться на серверах, расположенных в разных странах. Мы обеспечиваем, что такая 
+                передача соответствует применимым законам о защите данных и используем стандартные договорные условия для 
+                защиты ваших прав.
+            </p>
+        </section>
+
+        <section>
+            <h2>11. Изменения в политике</h2>
+            <p>
+                Мы можем обновлять эту Политику конфиденциальности время от времени. О существенных изменениях мы уведомим вас 
+                через бота или на сайте. Дата последнего обновления всегда указана вверху документа.
+            </p>
+            <p>
+                Продолжая использовать сервис после изменений, вы принимаете обновленную политику.
+            </p>
+        </section>
+
+        <section>
+            <h2>12. Контактная информация</h2>
+            <div class="contact-info">
+                <p>Если у вас есть вопросы о нашей Политике конфиденциальности или вы хотите реализовать свои права:</p>
+                <p><strong>Email:</strong> <a href="mailto:privacy@starcypher.xyz">privacy@starcypher.xyz</a></p>
+                <p><strong>Telegram бот:</strong> <a href="https://web.telegram.org/k/#@starcypher_bot" target="_blank">@starcypher_bot</a></p>
+                <p><strong>Веб-сайт:</strong> <a href="https://starcypher.xyz">https://starcypher.xyz</a></p>
+                <p style="margin-top: 20px; font-size: 0.95rem;">
+                    Мы стремимся ответить на все запросы в течение 30 дней.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="highlight">
+                <h3 style="margin-top: 0;">Краткое резюме</h3>
+                <ul>
+                    <li>✓ Мы собираем только необходимые данные для астрологических прогнозов</li>
+                    <li>✓ Ваши данные защищены шифрованием и не продаются третьим лицам</li>
+                    <li>✓ Вы можете удалить свои данные в любой момент</li>
+                    <li>✓ Мы используем AI только для создания персональных прогнозов</li>
+                    <li>✓ Ваша конфиденциальность - наш приоритет</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 StarCypher.xyz. Все права защищены.</p>
+            <p style="margin-top: 10px;">
+                <a href="index.html">Главная</a> | 
+                <a href="https://web.telegram.org/k/#@starcypher_bot" target="_blank">Telegram Bot</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

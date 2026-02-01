@@ -1,0 +1,21 @@
+name: Deploy Landing
+on:
+  push:
+    branches:
+      - main # или мастер, проверь имя ветки
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /var/www/starcypher-landing
+            git pull origin main
+            # Если нужно сбросить кэш Nginx после пулла:
+            # sudo systemctl reload nginx 
